@@ -1,3 +1,10 @@
+import Link from "next/link";
+import type {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: "CleanTown | Главная",
+};
+
 export default function Home() {
     return (
         <div className={`container`}>
@@ -6,7 +13,9 @@ export default function Home() {
                     <h2>Клининг-сервис</h2>
                     <h1>Сделаем ваш дом и офис чистыми!</h1>
                     <p>Уборка квартир, офисов, благоустройство территорий</p>
-                    <button className="button">Закажите уборку уже сегодня!</button>
+                    <Link href="/form">
+                        <button className="button">Закажите уборку уже сегодня!</button>
+                    </Link>
                 </div>
                 <img src="/main.jpg" alt=""/>
             </div>

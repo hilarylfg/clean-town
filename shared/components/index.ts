@@ -1,3 +1,9 @@
 export { Header } from "./Header/Header";
 export { Footer } from "./Footer/Footer";
 export { Logo } from "./Logo/Logo";
+export { Contacts } from "./Contacts/Contacts";
+export { PopupModal } from "./PopupModal/PopupModal";
+export { Question } from "./Question/Question"
+export { Review } from "./Review/Review"
+export { CleanForm } from "./CleanForm/CleanForm"
+export { Service } from "./Service/Service"

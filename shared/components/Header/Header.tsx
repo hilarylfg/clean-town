@@ -1,6 +1,7 @@
 import styles from './Header.module.scss'
-import {User} from "lucide-react";
+import {Phone} from "lucide-react";
 import {Logo} from "@/shared/components";
+import Link from "next/link";
 
 export function Header() {
     return (
@@ -9,19 +10,19 @@ export function Header() {
                 <Logo/>
                 <ul className={styles.menu}>
                     <li className={styles.menu_item}>
-                        Услуги
+                        <Link href="/services">Услуги</Link>
                     </li>
                     <li className={styles.menu_item}>
-                        О нас
+                        <Link href="/about">О нас</Link>
                     </li>
                     <li className={styles.menu_item}>
-                        Новости
+                        <Link href="/news">Новости</Link>
                     </li>
                 </ul>
-                <div className={styles.auth_item}>
+                <div className={styles.contact_item}>
                     <div className={styles.button}>
-                        <User width={25}/>
-                        <p>Профиль</p>
+                        <Phone />
+                        +7 (993) 123-45-67
                     </div>
                 </div>
             </nav>

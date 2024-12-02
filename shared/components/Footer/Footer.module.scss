@@ -1,13 +1,24 @@
 .wrap {
     background-color: #4A4A4A;
     color: #F5F5F5;
-    height: 300px;
+    height: fit-content;
 
     footer {
         margin-top: 50px;
+        padding-bottom: 30px;
 
         .description {
             padding-top: 30px;
+
+            .text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    margin-right: 10px;
+                }
+            }
         }
     }
 }

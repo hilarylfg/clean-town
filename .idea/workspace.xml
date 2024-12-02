@@ -4,7 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0c66cad-a0d1-403d-90d1-9e632d987899" name="Changes" comment="" />
+    <list default="true" id="d0c66cad-a0d1-403d-90d1-9e632d987899" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/about/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/certificates/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/certificates/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/form/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/form/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/news/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/news/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/reviews/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/usually-questions/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/usually-questions/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/CleanForm/CleanForm.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/CleanForm/CleanForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/Contacts/Contacts.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/Contacts/Contacts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/Inputs/ContactInput/ContactInput.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/Inputs/ContactInput/ContactInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/Inputs/NameInput/NameInput.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/Inputs/NameInput/NameInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/Inputs/TextInput/TextInput.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/Inputs/TextInput/TextInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/Inputs/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/NewPost/NewPost.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/NewPost/NewPost.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/PopupModal/CloseModalButton/CloseModalButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/PopupModal/PopupModal.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/PopupModal/PopupModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/Question/Question.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/Question/Question.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/Review/Review.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/Review/Review.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/Service/Service.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/components/Service/Service.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/reviews/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/reviews/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lockb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shared/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/shared/styles/index.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,11 +69,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hilarylfg&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hilarylfg/clean-town.git&quot;,
+    &quot;accountId&quot;: &quot;aee3576a-f139-4749-92c1-4312f7511194&quot;
+  }
+}</component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2peNj7xzZO3iEMqhQzf7HhYr0M3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,7 +99,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.codeium.enabled": "true",
-    "last_opened_file_path": "C:/Users/hilarylfg/clean-town/app/about",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/hilarylfg/WebstormProjects/clean-town/shared/components/NewsRow",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -43,15 +109,19 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\hilarylfg\\clean-town\\node_modules\\typescript\\lib"
+    "ts.external.directory.path": "C:\\Users\\hilarylfg\\WebstormProjects\\clean-town\\node_modules\\typescript\\lib"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hilarylfg\clean-town\app\about" />
-      <recent name="C:\Users\hilarylfg\clean-town\app\reviews" />
-      <recent name="C:\Users\hilarylfg\clean-town\shared\components\Logo" />
-      <recent name="C:\Users\hilarylfg\clean-town\shared\components\Footer" />
+      <recent name="C:\Users\hilarylfg\WebstormProjects\clean-town\shared\components\NewsRow" />
+      <recent name="C:\Users\hilarylfg\WebstormProjects\clean-town\shared\components\Certificate" />
+      <recent name="C:\Users\hilarylfg\WebstormProjects\clean-town\app\certificates" />
+      <recent name="C:\Users\hilarylfg\WebstormProjects\clean-town\app\news" />
+      <recent name="C:\Users\hilarylfg\WebstormProjects\clean-town\app\services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hilarylfg\WebstormProjects\clean-town\public" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -71,6 +141,8 @@
       <updated>1733122713754</updated>
       <workItem from="1733122715708" duration="908000" />
       <workItem from="1733123641493" duration="10014000" />
+      <workItem from="1733143786050" duration="48000" />
+      <workItem from="1733143840313" duration="22091000" />
     </task>
     <servers />
   </component>

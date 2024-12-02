@@ -6,7 +6,9 @@ export function Footer() {
         <div className={styles.wrap}>
             <footer>
                 <div className={`${styles.description} container`}>
-                    <Logo/>
+                    <div className={styles.text}>
+                        <p>Copyright © 2024</p> <Logo/>
+                    </div>
                 </div>
             </footer>
         </div>
