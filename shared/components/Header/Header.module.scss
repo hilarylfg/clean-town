@@ -1,0 +1,41 @@
+.header {
+    padding-top: 15px;
+    padding-bottom: 50px;
+
+    .navbar {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+
+        .menu {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .menu_item {
+                display: inline-block;
+                margin-right: 25px;
+                font-size: 20px;
+                font-weight: 500;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .auth_item {
+            justify-self: end;
+        }
+
+        .button {
+            align-items: center;
+            text-align: center;
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
