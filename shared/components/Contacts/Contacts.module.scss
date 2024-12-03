@@ -61,3 +61,14 @@
     font-size: 40px;
     padding: 120px 0 15px 0;
 }
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+}

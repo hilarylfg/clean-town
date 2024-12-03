@@ -1,6 +1,7 @@
 import styles from './Contacts.module.scss'
 import {Mail, Phone} from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Contacts() {
     return (
@@ -11,22 +12,36 @@ export function Contacts() {
                     <h2>Clean<i>Town</i></h2>
                     <div className={styles.row}>
                         <span>Адрес офиса:</span>
-                        <a href="https://yandex.ru/maps/-/CHAnR4NN"><h3>г. Москва, ул. Кирпичная, дом 33, офис 523</h3></a>
+                        <a href="https://yandex.ru/maps/-/CHAnR4NN"><h3>г. Москва, ул. Кирпичная, дом 33, офис 523</h3>
+                        </a>
                     </div>
                     <div className={styles.row}>
                         <span>Реквизиты:</span>
                         <h3>ИНН 123456789 ОГРН 123456789</h3>
                     </div>
                 </div>
-                <div className={styles.block}>
-                    <div className={styles.row}>
+                <div className={`${styles.block} ${styles.contacts}`}>
+                    <div className={styles.contact}>
                         <span>Номер телефона:</span>
                         <div className={styles.phoneMail}>
                             <Phone/>
                             +7 (993) 123-45-67
                         </div>
                     </div>
-                    <div className={styles.row}>
+                    <div className={styles.contact}>
+                        <span>Соцсети:</span>
+                        <div className={styles.socials}>
+                            <div className={styles.social}><a href=""><Image src="/tg.svg" alt="" width={60}
+                                                                              height={60}/></a></div>
+                            <div className={styles.social}><a href=""><Image src="/vk.svg" alt="" width={60}
+                                                                              height={60}/></a></div>
+                            <div className={styles.social}><a href=""><Image src="/youtube.svg" alt="" width={60}
+                                                                              height={60}/></a></div>
+                            <div className={styles.social}><a href="https://github.com/hilarylfg"><Image src="/github.svg" alt="" width={60}
+                                                                              height={60}/></a></div>
+                        </div>
+                    </div>
+                    <div className={styles.contact}>
                         <span>Email:</span>
                         <div className={styles.phoneMail}>
                             <Mail/>
