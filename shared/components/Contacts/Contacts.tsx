@@ -5,7 +5,7 @@ import Link from "next/link";
 export function Contacts() {
     return (
         <div className="container">
-            <h1 className="block_title">Контакты</h1>
+            <h1 className={styles.blockTitle}>Контакты</h1>
             <div className={styles.blocks}>
                 <div className={styles.block}>
                     <h2>Clean<i>Town</i></h2>

@@ -10,7 +10,7 @@ export default function Reviews() {
     return (
         <div className={`container`}>
             <h3 className="current-page">Главная / <b className="current-page">Отзывы</b></h3>
-            <h1 className={styles.h1}>Отзывы <i>клиентов</i></h1>
+            <h1 className="h1">Отзывы <i>клиентов</i></h1>
             <div className={styles.reviews}>
                 <Review title="Ирина П."
                         text="Клининговая компания—это надежный выбор в сфере уборки квартир. У них работают профессионалы

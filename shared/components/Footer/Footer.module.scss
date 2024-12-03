@@ -1,6 +1,8 @@
+@use "@/shared/styles/variables" as *;
+
 .wrap {
-    background-color: #4A4A4A;
-    color: #F5F5F5;
+    background-color: $gray;
+    color: $white;
     height: fit-content;
 
     footer {

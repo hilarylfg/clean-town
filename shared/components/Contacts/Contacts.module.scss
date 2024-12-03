@@ -1,21 +1,23 @@
+@use "@/shared/styles/variables" as *;
+
 .blocks {
     display: flex;
     justify-content: space-between;
 
     a {
         &:hover {
-            color: #9BC53D;
+            color: $green;
         }
     }
 
     .block {
         display: flex;
         flex-direction: column;
-        color: #F5F5F5;
+        color: $white;
         font-size: 20px;
         height: 370px;
         width: 370px;
-        background: #4A4A4A;
+        background: $gray;
         padding: 30px;
         border-radius: 20px;
 
@@ -27,7 +29,7 @@
             margin-bottom: 10px;
 
             i {
-                color: #9BC53D;
+                color: $green;
             }
         }
 
@@ -53,4 +55,9 @@
     svg {
         margin-right: 10px;
     }
+}
+
+.blockTitle {
+    font-size: 40px;
+    padding: 120px 0 15px 0;
 }

@@ -10,7 +10,7 @@ export default function Services() {
     return (
         <div className={`container`}>
             <h3 className="current-page">Главная / <b className="current-page">Услуги</b></h3>
-            <h1 className={styles.h1}>Популярные <i>услуги</i></h1>
+            <h1 className="h1">Популярные <i>услуги</i></h1>
             <div className={styles.services}>
                 <Service title="Генеральная уборка"
                          text="Мы проводим тщательную уборку всей квартиры или дома, включая труднодоступные места. Протираем

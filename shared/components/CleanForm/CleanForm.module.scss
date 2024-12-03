@@ -1,3 +1,5 @@
+@use "@/shared/styles/variables" as *;
+
 .form {
     display: flex;
     justify-content: center;
@@ -25,7 +27,7 @@
         padding: 16px 20px;
 
         button {
-            background: #9BC53D;
+            background: $green;
             font-weight: 500;
             border: none;
             border-radius: 20px;
@@ -37,7 +39,7 @@
             transition: all 200ms ease;
 
             &:hover {
-                background-color: #b9eb48;
+                background-color: $green-hover;
             }
         }
     }
@@ -46,5 +48,5 @@
 .block {
     height: 400px;
     border-radius: 35px;
-    border: 2px solid #4A4A4A;
+    border: 2px solid $gray;
 }

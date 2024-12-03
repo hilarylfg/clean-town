@@ -1,6 +1,8 @@
+@use "@/shared/styles/variables" as *;
+
 .block {
-    color: #F5F5F5;
-    background: #4A4A4A;
+    color: $white;
+    background: $gray;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -8,7 +10,7 @@
     height: 520px;
 
     h3 {
-        color: #9BC53D;
+        color: $green;
         font-size: 28px;
         margin-bottom: 10px;
     }
@@ -21,7 +23,7 @@
         margin-top: auto;
 
         p {
-            color: #9BC53D;
+            color: $green;
             font-size: 32px;
         }
     }

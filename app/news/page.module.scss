@@ -1,3 +1,5 @@
+@use "/shared/styles/variables" as *;
+
 .news {
     display: flex;
     flex-direction: column;
@@ -10,6 +12,6 @@
     margin-bottom: 20px;
 
     i {
-        color: #9BC53D;
+        color: $green;
     }
 }

@@ -1,9 +1,11 @@
+@use "@/shared/styles/variables" as *;
+
 .logo {
     justify-self: start;
     font-size: 40px;
     font-weight: 800;
 
     i {
-        color: #9BC53D;
+        color: $green;
     }
 }

@@ -1,7 +1,9 @@
+@use "@/shared/styles/variables" as *;
+
 .textarea {
     position: relative;
-    background: #F5F5F5;
-    border: 2px solid #4A4A4A;
+    background: $white;
+    border: 2px solid $gray;
     width: 100%;
     height: 250px;
     border-radius: 20px;
@@ -13,12 +15,12 @@
     transition: all 200ms ease;
 
     &:focus {
-        border: 2px solid #9BC53D;
-        background: #F9f9f9;
+        border: 2px solid $green;
+        background: $white-hover;
     }
 
     &:hover {
-        background: #F9f9f9;
+        background: $white-hover;
     }
 
     &::placeholder {

@@ -7,7 +7,7 @@ interface QuestionProps {
 
 export function Question(props: QuestionProps) {
     return (
-        <div className={`${styles.block} container`}>
+        <div className={styles.block}>
             <h3>{props.title}</h3>
             <p>{props.text}</p>
             <hr/>
