@@ -1,5 +1,6 @@
 import type {Metadata} from "next";
 import {Question} from "@/shared/components";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "CleanTown | Частые вопросы",
@@ -8,7 +9,8 @@ export const metadata: Metadata = {
 export default function UsuallyQuestions() {
     return (
         <div className={`container`}>
-            <h3 className="current-page">Главная / <b className="current-page">Частые вопросы</b></h3>
+            <h3 className="current-page"><Link href="/">Главная</Link> / <b className="current-page">Частые вопросы</b>
+            </h3>
             <h1 className="h1">Частые <i>вопросы</i></h1>
             <Question title="Вы используете безопасные для детей и животных средства?"
                       text="Да, мы используем только сертифицированные и экологически чистые средства. Они полностью безопасны для детей,

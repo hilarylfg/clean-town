@@ -1,5 +1,6 @@
 import type {Metadata} from "next";
 import styles from "./page.module.scss";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "CleanTown | Сертификаты",
@@ -8,7 +9,8 @@ export const metadata: Metadata = {
 export default function Certificates() {
     return (
         <div className={`container`}>
-            <h3 className="current-page">Главная / <b className="current-page">Сертификаты</b></h3>
+            <h3 className="current-page"><Link href="/">Главная</Link> / <b className="current-page">Сертификаты</b>
+            </h3>
             <h1 className={styles.h1}>Наши <i>сертификаты</i></h1>
             <div className={styles.photos}>
                 <div>
