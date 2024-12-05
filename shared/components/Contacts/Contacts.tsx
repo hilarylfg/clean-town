@@ -25,7 +25,7 @@ export function Contacts() {
                         <span>Номер телефона:</span>
                         <div className={styles.phoneMail}>
                             <Phone/>
-                            +7 (993) 123-45-67
+                            <a href="tel:+79931234567">+7 (993) 123-45-67</a>
                         </div>
                     </div>
                     <div className={styles.contact}>
@@ -45,7 +45,7 @@ export function Contacts() {
                         <span>Email:</span>
                         <div className={styles.phoneMail}>
                             <Mail/>
-                            cleantown@gmail.com
+                            <a href="mailto:cleantown@gmail.com">cleantown@gmail.com</a>
                         </div>
                     </div>
                 </div>

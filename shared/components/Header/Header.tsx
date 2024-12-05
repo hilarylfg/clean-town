@@ -22,7 +22,7 @@ export function Header() {
                 <div className={styles.contact_item}>
                     <div className={styles.button}>
                         <Phone />
-                        +7 (993) 123-45-67
+                        <a href="tel:+79931234567">+7 (993) 123-45-67</a>
                     </div>
                 </div>
             </nav>
